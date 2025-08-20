@@ -1000,7 +1000,7 @@ const questions = [
       "Development requires violence"
     ],
     answer: 2
-  }
+  },
   {
     question: "According to the course material, peace is best defined as:",
     options: [
