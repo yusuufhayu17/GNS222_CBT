@@ -1001,6 +1001,1026 @@ const questions = [
     ],
     answer: 2
   }
+  {
+    question: "According to the course material, peace is best defined as:",
+    options: [
+      "The absence of war",
+      "The absence of fear and anxiety",
+      "The existence of justice and equality",
+      "A state of tranquility and silence"
+    ],
+    answer: 2
+  },
+  {
+    question: "A latent conflict is one that is:",
+    options: [
+      "Open and violent",
+      "Hidden and not yet manifested",
+      "In its final stage of resolution",
+      "Managed by a third party"
+    ],
+    answer: 1
+  },
+  {
+    question: "According to the lecture notes, conflict is inevitable because it arises from:",
+    options: [
+      "The inherent evil in humanity",
+      "Everyday interactions and the pursuit of incompatible goals",
+      "Government policies alone",
+      "A lack of military power"
+    ],
+    answer: 1
+  },
+  {
+    question: "The three general categories of conflict causes are:",
+    options: [
+      "Political, economic, social",
+      "Communication, organisational structure, personal variables",
+      "Local, national, international",
+      "Violent, non-violent, latent"
+    ],
+    answer: 1
+  },
+  {
+    question: "A semantic misunderstanding leading to conflict is an example of a failure in:",
+    options: [
+      "Organisational Structure",
+      "Personality Types",
+      "Communication",
+      "Value System"
+    ],
+    answer: 2
+  },
+  {
+    question: "The potential for conflict increases when parties are highly interdependent and must share:",
+    options: [
+      "The same birthday",
+      "Scarce or improperly managed resources",
+      "Identical opinions",
+      "A common language"
+    ],
+    answer: 1
+  },
+  {
+    question: "A key identifiable cause of conflict mentioned in the notes is:",
+    options: [
+      "Excessive cooperation",
+      "Standardized performance",
+      "Value differences",
+      "Uniform goals"
+    ],
+    answer: 2
+  },
+  {
+    question: "In the pre-conflict stage, the relationship between parties is best described as:",
+    options: [
+      "Openly hostile and violent",
+      "Characterized by a \"cold war\" and undermined communication",
+      "Perfectly harmonious",
+      "Already resolved"
+    ],
+    answer: 1
+  },
+  {
+    question: "Mobilisation of resources and the search for allies are characteristics of the:",
+    options: [
+      "Pre-Conflict Stage",
+      "Confrontation Stage",
+      "Crisis Stage",
+      "Post-Conflict Stage"
+    ],
+    answer: 1
+  },
+  {
+    question: "The stage that represents the peak of violence, with killings and mass displacement, is the:",
+    options: [
+      "Outcome Stage",
+      "Crisis Stage",
+      "Confrontation Stage",
+      "Pre-Conflict Stage"
+    ],
+    answer: 1
+  },
+  {
+    question: "The Outcome Stage is critical because:",
+    options: [
+      "Violence increases dramatically",
+      "It allows room for discussion to commence as violence decreases",
+      "The root causes are finally ignored",
+      "One party is always annihilated"
+    ],
+    answer: 1
+  },
+  {
+    question: "The primary task of the Post-Conflict Stage is to:",
+    options: [
+      "Re-enact the cycle of violence",
+      "Address the underlying causes and incompatible goals that started the conflict",
+      "Assign blame to the losing side",
+      "Disband all social institutions"
+    ],
+    answer: 1
+  },
+  {
+    question: "Miller and King defined peace as a potential condition that ensures justice through:",
+    options: [
+      "Military dominance",
+      "Formal and informal resolution practices and norms",
+      "Economic sanctions",
+      "Religious doctrine"
+    ],
+    answer: 1
+  },
+  {
+    question: "\"Peace as wholeness\" implies a state of being:",
+    options: [
+      "Broken and fragmented",
+      "Complete and entire",
+      "At war",
+      "In a temporary truce"
+    ],
+    answer: 1
+  },
+  {
+    question: "Theories in conflict studies are primarily used as:",
+    options: [
+      "Unquestionable laws",
+      "Guidelines for explaining human behaviour and phenomena",
+      "Tools for assigning blame",
+      "Religious texts"
+    ],
+    answer: 1
+  },
+  {
+    question: "The Attributive Theory explains that people analyse conflict by:",
+    options: [
+      "Examining their own faults first",
+      "Blaming the characteristics and intentions of others",
+      "Looking for collaborative solutions",
+      "Ignoring the causes entirely"
+    ],
+    answer: 1
+  },
+  {
+    question: "The Confrontation Episode Theory suggests conflict emanates from:",
+    options: [
+      "A desire for wealth",
+      "The denial of good behaviour, rules, and responsibility",
+      "Good communication",
+      "Fair weather"
+    ],
+    answer: 1
+  },
+  {
+    question: "The Coordinated Management Theory (CMM) states that the meaning of a conversation depends heavily on:",
+    options: [
+      "The time of day",
+      "The colour of the speakers' clothes",
+      "The context and nature of the relationship between the discussants",
+      "Government policy"
+    ],
+    answer: 2
+  },
+  {
+    question: "The Social Influence Theory posits that coercive acts:",
+    options: [
+      "Are always perceived as aggressive",
+      "Are never justified",
+      "May not be perceived as aggressive if the actor can find justification",
+      "Are the only way to resolve conflict"
+    ],
+    answer: 2
+  },
+  {
+    question: "The Integrative Theory calls for conflict resolution through:",
+    options: [
+      "Problem-solving and collaboration",
+      "Verbal aggression",
+      "Military victory",
+      "Isolation of the parties"
+    ],
+    answer: 0
+  },
+  {
+    question: "According to the Verbal Aggressiveness Theory (VAT), aggression can be triggered in people with:",
+    options: [
+      "High argumentative skills",
+      "Low argumentative skills who feel frustrated",
+      "Excessive wealth",
+      "Too much peace education"
+    ],
+    answer: 1
+  },
+  {
+    question: "Peacebuilding, as a process, uses:",
+    options: [
+      "Exclusively violent methods",
+      "Peaceful, non-violent methods",
+      "Only economic strategies",
+      "Military enforcement first"
+    ],
+    answer: 1
+  },
+  {
+    question: "Conflict management is essentially the process of:",
+    options: [
+      "Ensuring one side wins",
+      "Reducing the negative aspects of conflict",
+      "Ignoring the conflict",
+      "Starting a larger conflict to overshadow the first one"
+    ],
+    answer: 1
+  },
+  {
+    question: "The text states that conflict management is an admission that:",
+    options: [
+      "All conflicts can be easily resolved",
+      "Conflict is inevitable and not all conflicts can always be resolved",
+      "Violence is the only solution",
+      "Third parties are unnecessary"
+    ],
+    answer: 1
+  },
+  {
+    question: "A wide range of non-violent methods for managing conflict are available at the:",
+    options: [
+      "International level only",
+      "Individual, family, group, community, and international levels",
+      "National level only",
+      "Community level only"
+    ],
+    answer: 1
+  },
+  {
+    question: "Pro-active methods of conflict management are designed to:",
+    options: [
+      "Respond to ongoing violence",
+      "Prevent the occurrence of conflict in the first place",
+      "Punish aggressors",
+      "Manage the aftermath of war"
+    ],
+    answer: 1
+  },
+  {
+    question: "Collaboration as a pro-active method helps to build:",
+    options: [
+      "Distrust and suspicion",
+      "Larger armies",
+      "Trust, confidence, and mutual respect",
+      "Higher walls"
+    ],
+    answer: 2
+  },
+  {
+    question: "In the context of peacebuilding, communication assists by:",
+    options: [
+      "Spreading misinformation",
+      "Removing doubt and suspicion and contributing to confidence building",
+      "Increasing tension",
+      "Ensuring one narrative dominates"
+    ],
+    answer: 1
+  },
+  {
+    question: "Grassroot community activities promote peace by:",
+    options: [
+      "Highlighting differences",
+      "Creating social bonding and preventing conflict",
+      "Serving as a platform for political rallies",
+      "Replacing the need for government"
+    ],
+    answer: 1
+  },
+  {
+    question: "Good governance delivers \"public goods,\" which helps to:",
+    options: [
+      "Increase corruption",
+      "Reduce tension and gain citizens' support",
+      "Create more bureaucracy",
+      "Encourage nepotism"
+    ],
+    answer: 1
+  },
+  {
+    question: "Re-active methods of conflict management are used:",
+    options: [
+      "Before any sign of conflict appears",
+      "In response to situations that are already or potentially conflicting",
+      "Only by military forces",
+      "To replace pro-active methods entirely"
+    ],
+    answer: 1
+  },
+  {
+    question: "A key characteristic of mediation is that it is:",
+    options: [
+      "A binding process where the mediator imposes a solution",
+      "A voluntary process where a third party facilitates a negotiation",
+      "Always conducted by a judge",
+      "Synonymous with arbitration"
+    ],
+    answer: 1
+  },
+  {
+    question: "The primary goal of negotiation is to:",
+    options: [
+      "Win at all costs",
+      "Reach an agreement through joint decision-making",
+      "Impress observers",
+      "Prolong the discussion"
+    ],
+    answer: 1
+  },
+  {
+    question: "Conciliation involves a third party who:",
+    options: [
+      "Makes a legally binding award",
+      "Communicates separately with parties to persuade them towards peace",
+      "Uses military force to separate parties",
+      "Represents the government's interest"
+    ],
+    answer: 1
+  },
+  {
+    question: "In arbitration, the decision rendered by the neutral third party is called:",
+    options: [
+      "A Judgment",
+      "A Verdict",
+      "An Award",
+      "A Settlement"
+    ],
+    answer: 2
+  },
+  {
+    question: "A significant disadvantage of adjudication (litigation) is that it:",
+    options: [
+      "Is always faster than ADR",
+      "Preserves relationships and builds trust",
+      "Allows parties to control the outcome",
+      "Tends to destroy trust and respect between parties"
+    ],
+    answer: 3
+  },
+  {
+    question: "The Multi-Track approach argues that peacemaking is the responsibility of:",
+    options: [
+      "The government and military only",
+      "Various stakeholders including NGOs, businesses, and the media",
+      "Only the United Nations",
+      "The conflicting parties alone"
+    ],
+    answer: 1
+  },
+  {
+    question: "Track 3 of the Multi-Track approach is:",
+    options: [
+      "Government",
+      "Business (Peacemaking through commerce)",
+      "Private Citizens (Peacemaking through personal involvement)",
+      "Religion"
+    ],
+    answer: 1
+  },
+  {
+    question: "Conflict transformation seeks to change:",
+    options: [
+      "Only the winning party",
+      "The parties, their relationship, and the conflict's root conditions",
+      "Only the geographical location of the conflict",
+      "The conflict into a larger war"
+    ],
+    answer: 1
+  },
+  {
+    question: "A necessary condition for effective mediation is:",
+    options: [
+      "That the parties are forced to participate",
+      "That the mediator is from a powerful country",
+      "That the conflicting parties desire a resolution",
+      "That the conflict has already been won by one side"
+    ],
+    answer: 2
+  },
+  {
+    question: "The ingredient of reconciliation that includes tolerance, love, and kindness is:",
+    options: [
+      "Justice",
+      "Truth",
+      "Peace",
+      "Mercy"
+    ],
+    answer: 2
+  },
+  {
+    question: "The Multi-Door Courthouse (MDC) system emphasizes:",
+    options: [
+      "Litigation and prolonged court cases",
+      "Reconciliation and forgiveness as cheaper, faster alternatives",
+      "Increasing lawyer fees",
+      "Handling only criminal cases"
+    ],
+    answer: 1
+  },
+  {
+    question: "The lecture notes posit that conflict in social life:",
+    options: [
+      "Can be completely eradicated",
+      "Is purely negative and must be avoided",
+      "Has both negative and positive aspects and is a basic unit for understanding society",
+      "Is only important in political settings"
+    ],
+    answer: 2
+  },
+  {
+    question: "The most problematic aspect of conflict is its:",
+    options: [
+      "Ability to foster creativity",
+      "Explosion into violence",
+      "Role in social change",
+      "Inevitability"
+    ],
+    answer: 1
+  },
+  {
+    question: "Ethnic conflict in Nigeria is often linked to:",
+    options: [
+      "Sporting events",
+      "Political issues and allegations of marginalization",
+      "Uniform weather patterns",
+      "A single national language"
+    ],
+    answer: 1
+  },
+  {
+    question: "Religious conflict in Nigeria is often fueled by:",
+    options: [
+      "Excessive cooperation among faiths",
+      "Intolerance and bigotry",
+      "A unified religious doctrine",
+      "Government enforcement of a state religion"
+    ],
+    answer: 1
+  },
+  {
+    question: "A serious consequence of political conflict in Nigeria has been:",
+    options: [
+      "Economic prosperity",
+      "Election crises leading to killings and destruction",
+      "Increased international aid",
+      "The dissolution of all political parties"
+    ],
+    answer: 1
+  },
+  {
+    question: "Resource conflict arises primarily because societal resources are:",
+    options: [
+      "Infinite and abundant",
+      "Scarce or limited, leading to competition",
+      "Evenly distributed by nature",
+      "Only valued by foreigners"
+    ],
+    answer: 1
+  },
+  {
+    question: "Industrial conflict occurs when groups disagree over:",
+    options: [
+      "The colour of the factory walls",
+      "The distribution of common resources within industries",
+      "The weather",
+      "International politics"
+    ],
+    answer: 1
+  },
+  {
+    question: "An element of peacebuilding that involves identifying social developments that suggest future conflict is:",
+    options: [
+      "Early Morning Response",
+      "Early Morning Signs",
+      "Post-Conflict Justice",
+      "Litigation"
+    ],
+    answer: 1
+  },
+  {
+    question: "Actions taken by peace guarantors or leaders to address observed signs of conflict are known as:",
+    options: [
+      "Early Morning Signs",
+      "Early Morning Response",
+      "Provocation",
+      "Escalation"
+    ],
+    answer: 1
+  },
+  {
+    question: "The systematic enlightenment of individuals and groups on the ideals of peace is called:",
+    options: [
+      "Conflict escalation",
+      "Military training",
+      "Peace education",
+      "Political campaigning"
+    ],
+    answer: 2
+  },
+  {
+    question: "The Latin root of the word \"conflict\" implies:",
+    options: [
+      "To strike together",
+      "To agree",
+      "To love",
+      "To build"
+    ],
+    answer: 0
+  },
+  {
+    question: "A conflict that is hidden and has not yet manifested openly is termed:",
+    options: [
+      "Manifest conflict",
+      "Latent conflict",
+      "International conflict",
+      "Resolved conflict"
+    ],
+    answer: 1
+  },
+  {
+    question: "Structural violence refers to:",
+    options: [
+      "Direct physical assault",
+      "The systematic way a social structure harms people by preventing them from meeting their basic needs",
+      "A natural disaster",
+      "Verbal arguments"
+    ],
+    answer: 1
+  },
+  {
+    question: "Positive peace is characterized by:",
+    options: [
+      "The absence of war only",
+      "The presence of justice, equality, and the conditions for human flourishing",
+      "A strong military presence",
+      "The suppression of all dissent"
+    ],
+    answer: 1
+  },
+  {
+    question: "A peacekeeper's role is primarily to:",
+    options: [
+      "Impose a political solution by force",
+      "Act as a combatant for one side",
+      "Maintain ceasefires and stabilize situations consensually",
+      "Replace local government"
+    ],
+    answer: 2
+  },
+  {
+    question: "An example of an inter-personal conflict is a dispute between:",
+    options: [
+      "Two departments within a company",
+      "Two nations",
+      "Two individuals over a personal issue",
+      "An individual and their conscience"
+    ],
+    answer: 2
+  },
+  {
+    question: "The \"Indigene-Settler\" phenomenon is a classic example of a conflict over:",
+    options: [
+      "International trade",
+      "Identity, power, and resource allocation",
+      "Climate change",
+      "Musical preferences"
+    ],
+    answer: 1
+  },
+  {
+    question: "The primary goal of a conciliator is to:",
+    options: [
+      "Render a binding legal judgment",
+      "Persuade parties towards a peaceful solution through separate communication",
+      "Provide military support",
+      "Write new laws"
+    ],
+    answer: 1
+  },
+  {
+    question: "A major advantage of arbitration over litigation is its:",
+    options: [
+      "Formality and public nature",
+      "Speed and potential cost-effectiveness",
+      "Ability to destroy relationships",
+      "Requirement for lengthy appeals"
+    ],
+    answer: 1
+  },
+  {
+    question: "The \"Crisis Stage\" of conflict is also often referred to as the stage of:",
+    options: [
+      "Latent tension",
+      "War",
+      "Post-war reconstruction",
+      "Celebration"
+    ],
+    answer: 1
+  },
+  {
+    question: "The concept of \"inner peace\" refers to:",
+    options: [
+      "A peace treaty between nations",
+      "A state of spiritual or mental calmness",
+      "The absence of all conflict",
+      "Economic prosperity"
+    ],
+    answer: 1
+  },
+  {
+    question: "According to the provided materials, a lasting solution to conflicts in Africa requires:",
+    options: [
+      "More arbitrary borders",
+      "Committed leadership and equitable resource distribution",
+      "Increased foreign debt",
+      "The denial of human rights"
+    ],
+    answer: 1
+  },
+  {
+    question: "The UN Security Council has the power to:",
+    options: [
+      "Impose sanctions and authorize military action to maintain peace",
+      "Govern member countries directly",
+      "Control the world's economy",
+      "Overrule national constitutions"
+    ],
+    answer: 0
+  },
+  {
+    question: "The Niger Delta region of Nigeria has experienced conflict primarily related to:",
+    options: [
+      "Religious doctrine",
+      "Resources (oil) and environmental degradation",
+      "Disputes over national language",
+      "International sports"
+    ],
+    answer: 1
+  },
+  {
+    question: "A key principle for a mediator is:",
+    options: [
+      "Partiality towards the stronger party",
+      "Impartiality and neutrality",
+      "Advocating for a specific outcome",
+      "Using coercion"
+    ],
+    answer: 1
+  },
+  {
+    question: "The term \"conflict resolution\" implies:",
+    options: [
+      "Merely stopping the violence",
+      "Addressing the root causes to achieve a durable settlement",
+      "Allowing one party to win completely",
+      "Ignoring the problem"
+    ],
+    answer: 1
+  },
+  {
+    question: "\"Hate speech\" is dangerous because it:",
+    options: [
+      "Promotes mutual understanding",
+      "Is inimical to peace and security",
+      "Is a protected form of expression everywhere",
+      "Always leads to immediate economic growth"
+    ],
+    answer: 1
+  },
+  {
+    question: "The Frustration-Aggression theory suggests that aggression is often a result of:",
+    options: [
+      "Having all one's needs met",
+      "Being blocked from achieving a goal (frustration)",
+      "Excessive happiness",
+      "Good governance"
+    ],
+    answer: 1
+  },
+  {
+    question: "The Traditional Structural Theory views society as divided by:",
+    options: [
+      "Hair colour",
+      "Economic class (e.g., Bourgeoisie vs. Proletariat)",
+      "Musical taste",
+      "Athletic ability"
+    ],
+    answer: 1
+  },
+  {
+    question: "The Realist Theory of conflict argues that conflict is driven by:",
+    options: [
+      "Flaws in human nature, such as the desire for power",
+      "The need for love and belonging",
+      "Miscommunication only",
+      "Environmental factors alone"
+    ],
+    answer: 0
+  },
+  {
+    question: "A crucial step in conflict analysis is:",
+    options: [
+      "Jumping to conclusions",
+      "Ignoring the context",
+      "Fact-finding",
+      "Blaming the victim"
+    ],
+    answer: 2
+  },
+  {
+    question: "Boko Haram's use of asymmetric tactics is an example of:",
+    options: [
+      "Conventional warfare",
+      "Guerrilla warfare, making them elusive",
+      "Peaceful protest",
+      "Diplomatic negotiation"
+    ],
+    answer: 1
+  },
+  {
+    question: "The relationship between violence and development is typically:",
+    options: [
+      "Positive and reinforcing",
+      "Negative, as violence destroys infrastructure and social fabric",
+      "Non-existent",
+      "Always calculated by economists"
+    ],
+    answer: 1
+  },
+  {
+    question: "The number of primary actors in a conflict analysis framework is usually:",
+    options: [
+      "One",
+      "Two or more",
+      "Unimportant",
+      "Always thousands"
+    ],
+    answer: 1
+  },
+  {
+    question: "The absence of war most directly suggests the absence of:",
+    options: [
+      "Structural violence",
+      "Direct violence",
+      "All forms of injustice",
+      "Poverty"
+    ],
+    answer: 1
+  },
+  {
+    question: "A formal debate between schools would be an example of:",
+    options: [
+      "Violent conflict",
+      "Managed or institutionalized conflict, not necessarily negative",
+      "A root cause of war",
+      "Personal variable conflict"
+    ],
+    answer: 1
+  },
+  {
+    question: "A method of peaceful dispute settlement is:",
+    options: [
+      "Armed rebellion",
+      "Assassination",
+      "Mediation",
+      "Ethnic cleansing"
+    ],
+    answer: 2
+  },
+  {
+    question: "A core function of peace education is to:",
+    options: [
+      "Teach advanced military strategy",
+      "Promote a culture of peace, tolerance, and non-violent resolution",
+      "Encourage religious conversion",
+      "Support a single political party"
+    ],
+    answer: 1
+  },
+  {
+    question: "The concept of \"sovereignty\" is important to national security because it implies:",
+    options: [
+      "Dependence on foreign powers",
+      "A state's supreme authority within its territory",
+      "The absence of any government",
+      "Constant intervention in other states' affairs"
+    ],
+    answer: 1
+  },
+  {
+    question: "\"Territorial integrity\" refers to:",
+    options: [
+      "The wealth of a nation",
+      "The inviolability of a state's borders",
+      "The political party in power",
+      "The number of universities in a country"
+    ],
+    answer: 1
+  },
+  {
+    question: "A society with strong \"social cohesion\" is likely to:",
+    options: [
+      "Experience more internal conflict",
+      "Be more resilient and peaceful",
+      "Have no rules or laws",
+      "Be controlled by a foreign power"
+    ],
+    answer: 1
+  },
+  {
+    question: "The emotional and perceptual change desired in an individual through conflict transformation is a ______ level change.",
+    options: [
+      "International",
+      "Personal",
+      "Geological",
+      "Technological"
+    ],
+    answer: 1
+  },
+  {
+    question: "The track of peacemaking that involves providing funding and resources is:",
+    options: [
+      "Track 1: Government",
+      "Track 8: Funding",
+      "Track 5: Research, Training & Education",
+      "Track 9: Communication & Media"
+    ],
+    answer: 1
+  },
+  {
+    question: "The track of peacemaking that uses faith in action is:",
+    options: [
+      "Track 7: Religion",
+      "Track 2: Business",
+      "Track 4: Private Citizens",
+      "Track 6: Activism"
+    ],
+    answer: 0
+  },
+  {
+    question: "ADR processes are designed to ______ the formal court system.",
+    options: [
+      "Replace entirely",
+      "Decongest and serve as an alternative to",
+      "Complicate",
+      "Ignore"
+    ],
+    answer: 1
+  },
+  {
+    question: "A \"conflict trigger\" is an event that:",
+    options: [
+      "Resolves a latent conflict",
+      "Turns a latent conflict into a manifest one",
+      "Happens after the conflict is over",
+      "Is always planned years in advance"
+    ],
+    answer: 1
+  },
+  {
+    question: "A \"harmony\" model of conflict assumes that conflict is:",
+    options: [
+      "Natural and inevitable",
+      "Abnormal and a sign of a malfunctioning system",
+      "Always positive",
+      "Always negative"
+    ],
+    answer: 1
+  },
+  {
+    question: "A \"conflict\" model of society assumes that conflict is:",
+    options: [
+      "Abnormal",
+      "A natural and inevitable part of social life",
+      "Always easily resolved",
+      "Caused by external forces only"
+    ],
+    answer: 1
+  },
+  {
+    question: "A \"win-lose\" approach to negotiation is called:",
+    options: [
+      "Collaborative bargaining",
+      "Competitive bargaining",
+      "Compromising bargaining",
+      "Avoidance"
+    ],
+    answer: 1
+  },
+  {
+    question: "A \"win-win\" approach to negotiation, aiming for a solution beneficial to all, is called:",
+    options: [
+      "Competitive bargaining",
+      "Collaborative bargaining",
+      "Attrition",
+      "Domination"
+    ],
+    answer: 1
+  },
+  {
+    question: "The process of making concessions to find a middle ground is:",
+    options: [
+      "Competition",
+      "Compromise",
+      "Avoidance",
+      "Accommodation"
+    ],
+    answer: 1
+  },
+  {
+    question: "In conflict analysis, the \"context\" refers to the:",
+    options: [
+      "Personal biography of the analyst",
+      "Broot social, political, historical, and economic environment",
+      "Weather forecast",
+      "Time of day the conflict started"
+    ],
+    answer: 1
+  },
+  {
+    question: "A \"stakeholder\" in a conflict is any person or group:",
+    options: [
+      "With no interest in the outcome",
+      "Who is directly affected by or can affect the outcome",
+      "From a different country",
+      "Who is neutral"
+    ],
+    answer: 1
+  },
+  {
+    question: "A \"third party\" in conflict resolution is:",
+    options: [
+      "Always a government",
+      "An external individual or group not directly involved in the conflict",
+      "The main aggressor",
+      "The same as a stakeholder"
+    ],
+    answer: 1
+  },
+  {
+    question: "\"Ripeness\" in conflict resolution refers to the point when:",
+    options: [
+      "Parties are exhausted and ready to consider settlement",
+      "The conflict is just beginning",
+      "One party has been completely defeated",
+      "A third party forces a solution"
+    ],
+    answer: 0
+  },
+  {
+    question: "\"Peace enforcement\" involves:",
+    options: [
+      "Diplomatic persuasion only",
+      "The use of coercive force to impose peace, often without full consent",
+      "Activities only after a peace treaty is signed",
+      "Community festivals"
+    ],
+    answer: 1
+  },
+  {
+    question: "\"Peacemaking\" refers to diplomatic efforts to:",
+    options: [
+      "Start a war",
+      "End a war and reach a settlement",
+      "Ignore a conflict",
+      "Build infrastructure after a war"
+    ],
+    answer: 1
+  },
+  {
+    question: "The \"conflict triangle\" model often analyses the links between:",
+    options: [
+      "Attitude, Behaviour, and Contradiction",
+      "Earth, Wind, and Fire",
+      "Only economic factors",
+      "Only political factors"
+    ],
+    answer: 0
+  },
+  {
+    question: "\"Track II diplomacy\" involves unofficial dialogue facilitated by:",
+    options: [
+      "Heads of state",
+      "Military generals",
+      "Non-governmental entities (e.g., academics, NGOs)",
+      "Only religious leaders"
+    ],
+    answer: 2
+  },
+  {
+    question: "The ultimate goal of studying Peace and Conflict Resolution is to contribute to:",
+    options: [
+      "More efficient warfare",
+      "The creation of a more just and peaceful world",
+      "Promoting one culture over others",
+      "The dominance of a single economic system"
+    ],
+    answer: 1
+  }
 ];
 
 
