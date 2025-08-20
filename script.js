@@ -2,1084 +2,1004 @@
 
 const questions = [
   {
-    question: "Conflict is best described as a situation where two or more parties:",
+    question: "According to the course material, peace is best defined as:",
     options: [
-      "Share common goals equally",
-      "Perceive incompatible goals",
-      "Agree on all issues"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which of the following is NOT a cause of conflict?",
-    options: [
-      "Identity",
-      "Economic conditions",
-      "Tolerance"
+      "The absence of war",
+      "The absence of fear and anxiety",
+      "The existence of justice and equality",
+      "A state of tranquility and silence"
     ],
     answer: 2
   },
   {
-    question: "The process of a neutral third party helping disputants reach a resolution is called:",
+    question: "A latent conflict is one that is:",
     options: [
-      "Arbitration",
+      "Open and violent",
+      "Hidden and not yet manifested",
+      "In its final stage of resolution",
+      "Managed by a third party"
+    ],
+    answer: 1
+  },
+  {
+    question: "The World Health Organization (WHO) defines violence as:",
+    options: [
+      "Only physical assault",
+      "The premeditated use of physical force or power, threatened or actual",
+      "A natural human instinct",
+      "Synonymous with conflict"
+    ],
+    answer: 1
+  },
+  {
+    question: "A cease-fire agreement primarily aims to:",
+    options: [
+      "Solve the root causes of a conflict",
+      "Serve as a final peace treaty",
+      "Halt aggressive military actions to reduce tension",
+      "Apportion blame to the aggressor"
+    ],
+    answer: 2
+  },
+  {
+    question: "Peacekeeping differs from peace enforcement because peacekeeping requires:",
+    options: [
+      "The use of maximum military force",
+      "The consent of the nation state on whose territory it is deployed",
+      "The imposition of a political solution",
+      "The involvement of only civilian forces"
+    ],
+    answer: 1
+  },
+  {
+    question: "A conflict that occurs within an individual is known as:",
+    options: [
+      "Inter-personal conflict",
+      "Intra-group conflict",
+      "Intra-personal conflict",
+      "National conflict"
+    ],
+    answer: 2
+  },
+  {
+    question: "A dispute between two families over land is an example of:",
+    options: [
+      "Intra-personal conflict",
+      "Inter-group conflict",
+      "International conflict",
+      "Intra-group conflict"
+    ],
+    answer: 1
+  },
+  {
+    question: "A major root cause of conflict in Africa, as identified in the text, is:",
+    options: [
+      "Excessive foreign aid",
+      "Homogeneous ethnic composition",
+      "The creation of arbitrary borders by colonial powers",
+      "An overabundance of natural resources"
+    ],
+    answer: 2
+  },
+  {
+    question: "According to the material, incompetent leadership in Africa has contributed to conflict by:",
+    options: [
+      "Speeding up political integration",
+      "Slowing down political integration and unity",
+      "Promoting equitable resource distribution",
+      "Eradicating corruption"
+    ],
+    answer: 1
+  },
+  {
+    question: "The phrase \"a hungry man is an angry man\" is used in the context of which root cause of conflict?",
+    options: [
+      "Denial of Identity",
+      "Corruption",
+      "Poverty",
+      "Communication Gap"
+    ],
+    answer: 2
+  },
+  {
+    question: "In the \"indigene-settler\" phenomenon in Nigeria, the primary sources of contention are:",
+    options: [
+      "Climate and weather patterns",
+      "Access to power, resources, and questions of identity",
+      "International trade agreements",
+      "Sporting competitions"
+    ],
+    answer: 1
+  },
+  {
+    question: "The concept of peacebuilding aims to move society from:",
+    options: [
+      "Negative peace to positive peace",
+      "War to a cease-fire",
+      "Positive peace to negative peace",
+      "Litigation to arbitration"
+    ],
+    answer: 0
+  },
+  {
+    question: "Peace mediation is best described as a process that is:",
+    options: [
+      "Compulsory and binding",
+      "Voluntary and assisted by a neutral third party",
+      "Conducted only by the United Nations",
+      "Focused solely on military solutions"
+    ],
+    answer: 1
+  },
+  {
+    question: "The main goal of Alternative Dispute Resolution (ADR) is to:",
+    options: [
+      "Increase the workload of courts",
+      "Settle disputes without litigation",
+      "Ensure one party wins decisively",
+      "Prolong the dispute process"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of these is NOT a form of ADR?",
+    options: [
+      "Litigation",
+      "Negotiation",
       "Mediation",
-      "Confrontation"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which of the following are components of conflict resolution?",
-    options: [
-      "Peacebuilding, peacekeeping, peacemaking",
-      "Peace enforcement only",
-      "Violence management"
+      "Conciliation"
     ],
     answer: 0
   },
   {
-    question: "Negative peace is characterized by:",
+    question: "In negotiation, the process is characterized by:",
     options: [
-      "The presence of justice and equality",
-      "The absence of direct violence",
-      "Fair distribution of resources"
+      "Involvement of a judge",
+      "Direct dialogue between the disputing parties without a third party",
+      "A binding decision from an arbitrator",
+      "The use of military force"
     ],
     answer: 1
   },
   {
-    question: "The violent stage of conflict, marked by death and destruction, is called:",
+    question: "A mediator's role is to:",
     options: [
-      "Pre-conflict stage",
-      "Escalation stage",
-      "Outcome stage"
+      "Impose a solution on the parties",
+      "Facilitate communication and promote understanding between parties",
+      "Represent one party in court",
+      "Act as a law enforcement agent"
     ],
     answer: 1
   },
   {
-    question: "Direct violence includes all EXCEPT:",
+    question: "The resolution from an arbitrator is called:",
     options: [
-      "Physical injury",
-      "Lynching",
-      "Repression"
+      "A judgment",
+      "A verdict",
+      "An award",
+      "A settlement"
     ],
     answer: 2
   },
   {
-    question: "Which of these is an example of a major security threat in South-South Nigeria?",
+    question: "An advantage of ADR over litigation is:",
     options: [
-      "Militancy",
-      "Car theft",
-      "Traffic congestion"
+      "It is more formal",
+      "It is more expensive",
+      "It helps preserve relationships between parties",
+      "It always takes longer"
+    ],
+    answer: 2
+  },
+  {
+    question: "The stage of conflict characterized by occasional fighting and mobilization of resources is the:",
+    options: [
+      "Pre-Conflict Stage",
+      "Confrontation Stage",
+      "Crisis Stage",
+      "Post-Conflict Stage"
+    ],
+    answer: 1
+  },
+  {
+    question: "The peak of violent conflict, involving killings and large-scale displacement, is the:",
+    options: [
+      "Pre-Conflict Stage",
+      "Outcome Stage",
+      "Crisis Stage",
+      "Post-Conflict Stage"
+    ],
+    answer: 2
+  },
+  {
+    question: "The stage where the underlying causes of conflict must be addressed to prevent recurrence is the:",
+    options: [
+      "Pre-Conflict Stage",
+      "Confrontation Stage",
+      "Outcome Stage",
+      "Post-Conflict Stage"
+    ],
+    answer: 3
+  },
+  {
+    question: "The Attributive Theory of conflict suggests that people tend to:",
+    options: [
+      "Blame themselves for conflicts",
+      "Blame the characteristics and intentions of others for conflicts",
+      "Always seek collaborative solutions",
+      "Ignore the causes of conflict"
+    ],
+    answer: 1
+  },
+  {
+    question: "The Coordinated Management Theory (CMM) emphasizes that the meaning of communication depends on:",
+    options: [
+      "The time of day",
+      "The context and the relationship between the discussants",
+      "The volume of the speaker's voice",
+      "Government regulations"
+    ],
+    answer: 1
+  },
+  {
+    question: "The Integrative Theory of conflict emphasizes:",
+    options: [
+      "Problem-solving and collaboration",
+      "Verbal aggression",
+      "Military victory",
+      "Attributing blame"
     ],
     answer: 0
   },
   {
-    question: "One of the major causes of communal clashes in Nigeria is:",
+    question: "According to the Verbal Aggressiveness Theory (VAT), aggression can be ignited by:",
     options: [
-      "Religious harmony",
-      "Population growth",
+      "High argumentative skills",
+      "Frustration and a lack of verbal skills",
+      "Excessive wealth",
+      "International diplomacy"
+    ],
+    answer: 1
+  },
+  {
+    question: "Conflict management is primarily the process of:",
+    options: [
+      "Ignoring all conflicts",
+      "Reducing the negative aspects of conflict",
+      "Ensuring one side wins",
+      "Starting wars"
+    ],
+    answer: 1
+  },
+  {
+    question: "A pro-active method of managing conflict is:",
+    options: [
+      "Waiting for violence to erupt",
+      "Collaboration and joint projects",
+      "Litigation after a dispute",
+      "Peace enforcement"
+    ],
+    answer: 1
+  },
+  {
+    question: "Grassroot community activities like festivals help in peacebuilding by:",
+    options: [
+      "Creating social bonding and preventing conflict",
+      "Highlighting differences between groups",
+      "Serving as a platform for political campaigns",
+      "Replacing government functions"
+    ],
+    answer: 0
+  },
+  {
+    question: "Good governance assists in conflict prevention by:",
+    options: [
+      "Delivering public goods and gaining citizens' support",
+      "Encouraging corruption",
+      "Promoting inequality",
+      "Ignoring the rule of law"
+    ],
+    answer: 0
+  },
+  {
+    question: "A re-active method of conflict management is:",
+    options: [
+      "Good governance",
+      "Collaboration",
+      "Mediation",
+      "Communication"
+    ],
+    answer: 2
+  },
+  {
+    question: "In conciliation, the third party:",
+    options: [
+      "Makes a binding decision",
+      "Communicates separately with parties to persuade them towards peace",
+      "Uses military force",
+      "Represents one party in court"
+    ],
+    answer: 1
+  },
+  {
+    question: "A major disadvantage of litigation (adjudication) is that it:",
+    options: [
+      "Is always faster than ADR",
+      "Tends to destroy trust and respect between parties",
+      "Is less formal",
+      "Is cheaper"
+    ],
+    answer: 1
+  },
+  {
+    question: "The Multi-Track approach to peace emphasizes that peacemaking should involve:",
+    options: [
+      "Only the government",
+      "Only the military",
+      "A variety of stakeholders including NGOs, business, and media",
+      "Only international organizations"
+    ],
+    answer: 2
+  },
+  {
+    question: "Conflict transformation aims to:",
+    options: [
+      "Change the parties, their relationship, and the conditions that created the conflict",
+      "Suppress conflict through force",
+      "Ignore the root causes of conflict",
+      "Appoint a winner and a loser"
+    ],
+    answer: 0
+  },
+  {
+    question: "For mediation to be effective, it is necessary that:",
+    options: [
+      "The mediator is from the same family as one party",
+      "The conflicting parties desire a resolution",
+      "The conflict has reached the crisis stage",
+      "A court order mandates it"
+    ],
+    answer: 1
+  },
+  {
+    question: "The four ingredients of reconciliation are:",
+    options: [
+      "War, victory, defeat, treaty",
+      "Power, money, land, resources",
+      "Peace, mercy, truth, justice",
+      "Mediation, negotiation, arbitration, adjudication"
+    ],
+    answer: 2
+  },
+  {
+    question: "The primary purpose of the Multi-Door Courthouse (MDC) system is to:",
+    options: [
+      "Increase the number of cases in court",
+      "Provide a cheaper, faster alternative to litigation with an emphasis on reconciliation",
+      "Replace all lawyers with mediators",
+      "Handle only international conflicts"
+    ],
+    answer: 1
+  },
+  {
+    question: "A common type of conflict in Nigeria stemming from contests for political power is:",
+    options: [
+      "Industrial Conflict",
+      "Religious Conflict",
+      "Political Conflict",
+      "Resource Conflict"
+    ],
+    answer: 2
+  },
+  {
+    question: "Conflict over land ownership or control of farmlands in Nigeria is an example of:",
+    options: [
+      "Ethnic Conflict",
+      "Resource Conflict",
+      "Educational Conflict",
+      "Ideological Conflict"
+    ],
+    answer: 1
+  },
+  {
+    question: "Early warning signs of conflict include all EXCEPT:",
+    options: [
+      "Evidence of prolonged distrust",
+      "A history of animosity",
+      "A sudden surge in economic prosperity",
+      "Gradual escalation of violence"
+    ],
+    answer: 2
+  },
+  {
+    question: "Early warning response involves actions taken by:",
+    options: [
+      "Only the military",
+      "Peace guarantors, political leaders, and security agencies",
+      "Only international organizations",
+      "Only the parties in conflict"
+    ],
+    answer: 1
+  },
+  {
+    question: "Peace education seeks to promote:",
+    options: [
+      "A culture of violence",
+      "The culture of peace, tolerance, and forgiveness",
+      "Ethnic supremacy",
+      "Political apathy"
+    ],
+    answer: 1
+  },
+  {
+    question: "Negative peace is best described as:",
+    options: [
+      "The presence of justice and development",
+      "The absence of direct violence",
+      "A state of inner tranquility",
+      "The same as positive peace"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of these is an indicator of an impending conflict?",
+    options: [
+      "High employment rates",
+      "Social cohesion",
+      "Growing poverty and inequality",
       "Spirituality"
     ],
-    answer: 1
-  },
-  {
-    question: "Which of the following best describes Alternative Dispute Resolution (ADR)?",
-    options: [
-      "Slow and expensive",
-      "Cheaper and faster",
-      "Only involves court procedures"
-    ],
-    answer: 1
-  },
-  {
-    question: "The abbreviation ICJ stands for:",
-    options: [
-      "International Criminal Justice",
-      "International Court of Justice",
-      "International Conflict Jurisdiction"
-    ],
-    answer: 1
-  },
-  {
-    question: "According to the structural theory of conflict, conflict is built into:",
-    options: [
-      "The human nature of aggression",
-      "The particular ways societies are organized and structured",
-      "Random social events"
-    ],
-    answer: 1
-  },
-  {
-    question: "The CMM theory of conflict emphasizes that:",
-    options: [
-      "Economic status determines conflict",
-      "Beliefs and values affect people's actions",
-      "Violence is unavoidable"
-    ],
-    answer: 1
-  },
-  {
-    question: "Peace education initiatives serve as:",
-    options: [
-      "Early warning signs",
-      "Early response measures",
-      "Peace enforcement actions"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which of the following is NOT a peaceful dispute settlement method?",
-    options: [
-      "Mediation",
-      "Conciliation",
-      "Bribery"
-    ],
     answer: 2
   },
   {
-    question: "The Avengers in Nigeria are associated with:",
+    question: "Stakeholders in a conflict are:",
     options: [
-      "Electoral violence",
-      "Militancy in the Niger Delta",
-      "Student union activities"
+      "Uninvolved bystanders",
+      "Parties directly involved in the conflict and its outcome",
+      "Only international observers",
+      "The media only"
     ],
     answer: 1
   },
   {
-    question: "Peace as justice and development can also be referred to as:",
+    question: "The culture of peace includes all of the following EXCEPT:",
     options: [
-      "Harmonies",
-      "Armament",
-      "Repression"
+      "Values",
+      "Attitudes",
+      "Traditions",
+      "Militarism"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which is important to the security of a nation?",
+    options: [
+      "Apathy",
+      "Territorial integrity",
+      "Weak government",
+      "Absence of sovereignty"
+    ],
+    answer: 1
+  },
+  {
+    question: "Confrontation is NOT typically associated with:",
+    options: [
+      "Negotiation",
+      "Aggression",
+      "Dialogue",
+      "Physical fighting"
     ],
     answer: 0
   },
   {
-    question: "A major area of conflict in Nigeria is:",
+    question: "The two types of power often used in conflict are:",
     options: [
-      "Resource control",
-      "Political apathy",
-      "Educational policy"
+      "Soft and hard power",
+      "Positive and negative power",
+      "Electrical and solar power",
+      "Major and minor power"
     ],
     answer: 0
   },
   {
-    question: "The role of student unions in conflict resolution does NOT include:",
+    question: "Conflict management can occur:",
     options: [
-      "Providing humanitarian assistance",
-      "Defending human rights",
-      "Arming conflicting parties"
+      "Only after conflict",
+      "Only before conflict",
+      "Before, during, and after conflict",
+      "Only during violent conflict"
     ],
     answer: 2
   },
   {
-    question: "Which of the following is an indicator of impending conflict?",
+    question: "A positive impact of conflict can be:",
     options: [
-      "Growing poverty",
-      "Increased spirituality",
-      "Political stability"
-    ],
-    answer: 0
-  },
-  {
-    question: "Collaborative bargaining is also known as:",
-    options: [
-      "Competition",
-      "Win-win negotiation",
-      "Avoidance"
+      "Suspicion",
+      "Mutual respect",
+      "Destruction",
+      "Death"
     ],
     answer: 1
   },
   {
-    question: "The Security Council of the United Nations:",
+    question: "Conflict can create or modify ______ in society.",
     options: [
-      "Makes laws for member countries",
-      "Investigates security threats and may order military action",
-      "Only organizes humanitarian aid"
-    ],
-    answer: 1
-  },
-  {
-    question: "The term ‘conflict’ derives from the Latin word:",
-    options: [
-      "Conflictus",
-      "Confligere",
-      "Conflation"
-    ],
-    answer: 1
-  },
-  {
-    question: "Peacebuilders are characterized by:",
-    options: [
-      "Partiality",
-      "Being non-defensive and creative",
-      "Pride and bias"
-    ],
-    answer: 1
-  },
-  {
-    question: "The process of addressing causes of conflict is called:",
-    options: [
-      "Conflict management",
-      "Conflict resolution",
-      "Conflict avoidance"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which of the following is NOT a stage of conflict?",
-    options: [
-      "Pre-conflict",
-      "Violence",
-      "Collaboration"
+      "Peace",
+      "Sanctions",
+      "Norms",
+      "Absolute harmony"
     ],
     answer: 2
   },
   {
-    question: "The orthodox liberal theorists advocate for:",
+    question: "Conflict prevention aims to stop conflict from transforming into:",
     options: [
-      "Maintaining structural defects",
-      "Eliminating structural defects peacefully",
-      "Violent revolution"
+      "A discussion",
+      "Active violence or crisis",
+      "A negotiation",
+      "A treaty"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of these is NOT a type of peace?",
+    options: [
+      "Stable peace",
+      "Unstable peace",
+      "Instable peace",
+      "Durable peace"
+    ],
+    answer: 2
+  },
+  {
+    question: "Militarism does NOT guarantee:",
+    options: [
+      "Social cohesion",
+      "A strong army",
+      "Peace and stability",
+      "National defence"
+    ],
+    answer: 2
+  },
+  {
+    question: "Intra-personal conflict usually involves:",
+    options: [
+      "Other people",
+      "Groups",
+      "One's own emotions and heart",
+      "Nations"
+    ],
+    answer: 2
+  },
+  {
+    question: "An example of an Early Warning Sign of conflict is:",
+    options: [
+      "A decrease in population",
+      "An influx of Internally Displaced Persons (IDPs)",
+      "Economic stability",
+      "Free and fair elections"
+    ],
+    answer: 1
+  },
+  {
+    question: "Conflict occurs when two or more parties pursue:",
+    options: [
+      "Mutual inclusive goals",
+      "Incompatible goals",
+      "Identical goals",
+      "No goals"
     ],
     answer: 1
   },
   {
     question: "IDPs stands for:",
     options: [
-      "International Displaced Persons",
       "Internally Displaced Persons",
-      "International Development Program"
+      "Internally Disabled Persons",
+      "International Diplomatic Personnel",
+      "Intensive Disorder Problem"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which concept is NOT primarily associated with peace?",
+    options: [
+      "Interest",
+      "Fairness",
+      "Justice",
+      "Virtue"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which group is NOT typically associated with conflict creation?",
+    options: [
+      "Ethnic groups",
+      "Religious groups",
+      "Minority groups",
+      "Active citizenship groups promoting dialogue"
+    ],
+    answer: 3
+  },
+  {
+    question: "The word \"conflict\" is derived from the Latin word:",
+    options: [
+      "Conflicts",
+      "Confligere",
+      "Confliction",
+      "Conflagration"
     ],
     answer: 1
   },
   {
-    question: "Which of the following best describes ‘early warning signs’ of conflict?",
+    question: "Which term is NOT related to conflict?",
     options: [
-      "Social developments indicating potential conflict",
-      "Military interventions",
-      "Economic sanctions"
-    ],
-    answer: 0
-  },
-  {
-    question: "In negotiation, the main goal is to:",
-    options: [
-      "Reach an agreement through discussion and dialogue",
-      "Engage in confrontation",
-      "Enforce unilateral decisions"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which is NOT a strategy used in negotiation?",
-    options: [
-      "Compromising",
-      "Collaboration",
-      "Understanding"
-    ],
-    answer: 2
-  },
-  {
-    question: "The main cause of conflict according to the Marxian theory is:",
-    options: [
-      "Unequal distribution of resources",
-      "Human nature",
-      "Religious differences"
-    ],
-    answer: 0
-  },
-  {
-    question: "The prevention of war is:",
-    options: [
-      "An effort toward achieving positive peace",
-      "Not necessarily linked to positive peace",
-      "The only factor in peacebuilding"
-    ],
-    answer: 1
-  },
-  {
-    question: "Peace is the vehicle to:",
-    options: [
-      "Sustainable growth and development",
-      "Constant conflict",
-      "Social stagnation"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is NOT a form of conflict?",
-    options: [
-      "Genocide",
-      "Mass murder",
-      "Harmonious coexistence"
-    ],
-    answer: 2
-  },
-  {
-    question: "The term conflict regulation is also known as:",
-    options: [
-      "Conflict management",
-      "Conflict escalation",
-      "Conflict avoidance"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is NOT part of the five stages of conflict?",
-    options: [
+      "Contention",
       "Confrontation",
-      "Crisis",
-      "Pacifism"
+      "Contentment",
+      "Conflagration"
     ],
     answer: 2
   },
   {
-    question: "The main cause of electoral violence in Nigeria is:",
+    question: "Peace can best be maintained through:",
+    options: [
+      "Social justice",
+      "Constant warfare",
+      "Suppression of dissent",
+      "Isolationism"
+    ],
+    answer: 0
+  },
+  {
+    question: "The process of mediation is largely:",
+    options: [
+      "Compulsory",
+      "Voluntary",
+      "Avoidable",
+      "Unnecessary"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which is a concept associated with conflict management?",
+    options: [
+      "Litigation",
+      "Persecution",
+      "Containment",
+      "Ignition"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which is NOT associated with direct violence?",
+    options: [
+      "Physical injury",
+      "Deformity",
+      "Depression (a psychological effect)",
+      "Lynching"
+    ],
+    answer: 2
+  },
+  {
+    question: "The most prevalent type of conflict in Africa is:",
+    options: [
+      "Ethno-religious conflicts",
+      "Anti-Semitism",
+      "Class struggle in a Marxist sense",
+      "Cold War proxy wars"
+    ],
+    answer: 0
+  },
+  {
+    question: "An example of a regional organization is:",
+    options: [
+      "The United Nations (UNO)",
+      "The African Union (AU)",
+      "The International Monetary Fund (IMF)",
+      "The World Health Organization (WHO)"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of these is an international, not primarily regional, organization?",
+    options: [
+      "European Union (EU)",
+      "Association of Southeast Asian Nations (ASEAN)",
+      "United Nations (UNO)",
+      "African Union (AU)"
+    ],
+    answer: 2
+  },
+  {
+    question: "A good peace facilitator should possess all these qualities EXCEPT:",
+    options: [
+      "Openness",
+      "Impartiality",
+      "Pride",
+      "Fairness"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which is a genuine Nigerian military operation?",
+    options: [
+      "Operation Python Dance",
+      "Operation Scorpion Sting",
+      "Operation Free Chibok Girls",
+      "Operation Crocodile Smile"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which is NOT a constructive procedure for resolving conflict?",
+    options: [
+      "Collaboration",
+      "Combatting",
+      "Compromise",
+      "Accommodation"
+    ],
+    answer: 1
+  },
+  {
+    question: "The violent stage of conflict characterized by death and destruction is the:",
+    options: [
+      "Escalation stage",
+      "Crisis stage",
+      "Post-conflict stage",
+      "Latent stage"
+    ],
+    answer: 1
+  },
+  {
+    question: "A rule for peace educators is to:",
+    options: [
+      "Encourage students to be conflict mongers",
+      "Inform students about the value of peace and justice",
+      "Promote hate speech",
+      "Advocate for violence"
+    ],
+    answer: 1
+  },
+  {
+    question: "The UN Security Council does NOT:",
+    options: [
+      "Maintain international peace and security",
+      "Investigate security threats",
+      "Order military action",
+      "Make binding laws for the internal affairs of all member countries"
+    ],
+    answer: 3
+  },
+  {
+    question: "In Nigeria, militancy is a major security threat in the:",
+    options: [
+      "South-South (Niger Delta) region",
+      "South-West region",
+      "South-East region",
+      "North-West region"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which is a major security threat in present-day Nigeria?",
+    options: [
+      "Kidnapping",
+      "Bunkering",
+      "Cattle rustling",
+      "All of the above"
+    ],
+    answer: 3
+  },
+  {
+    question: "Peace education helps an individual understand:",
+    options: [
+      "Various conflict resolution methods",
+      "How to start a war",
+      "Only their own culture",
+      "None of the above"
+    ],
+    answer: 0
+  },
+  {
+    question: "A strategy involved in negotiation is:",
+    options: [
+      "Collaborative Bargaining",
+      "Ignoring the other party",
+      "Imposing demands",
+      "Physical intimidation"
+    ],
+    answer: 0
+  },
+  {
+    question: "The most important objective of teaching GNS 222 is to:",
+    options: [
+      "Increase students' capacity in peace activities",
+      "Meet credit requirements only",
+      "Promote radicalism",
+      "Stimulate desire for further research in peace studies"
+    ],
+    answer: 0
+  },
+  {
+    question: "In multicultural Nigeria, a common cause of conflict is:",
+    options: [
+      "Value differences",
+      "Uniformity of thought",
+      "Absolute justice",
+      "Lack of ideological differences"
+    ],
+    answer: 0
+  },
+  {
+    question: "Frequent communal clashes in Nigeria are caused by:",
+    options: [
+      "Failure of leadership",
+      "Poverty and hunger",
+      "Population growth",
+      "All of the options"
+    ],
+    answer: 3
+  },
+  {
+    question: "The group associated with militancy in the Niger Delta is:",
+    options: [
+      "The Niger Delta Avengers",
+      "IPOB",
+      "Afenifere",
+      "MOSSOB"
+    ],
+    answer: 0
+  },
+  {
+    question: "Electoral violence in Nigeria is caused by:",
     options: [
       "Desperate politicians",
-      "Fair election management",
-      "Peace education"
+      "Poor election management",
+      "Thuggery",
+      "All of the above"
+    ],
+    answer: 3
+  },
+  {
+    question: "Hate speech is:",
+    options: [
+      "Inimical to peace and security",
+      "A tool for creating mutual trust",
+      "Needed for national growth",
+      "A solution to crisis"
+    ],
+    answer: 0
+  },
+  {
+    question: "A broad classification of conflict is:",
+    options: [
+      "Violent and non-violent",
+      "Good and bad",
+      "Big and small",
+      "Simple and complex"
+    ],
+    answer: 0
+  },
+  {
+    question: "A gun famously associated with conflicts worldwide is the:",
+    options: [
+      "AK-47",
+      "Water pistol",
+      "Musket",
+      "Bow and arrow"
+    ],
+    answer: 0
+  },
+  {
+    question: "A component of conflict analysis is:",
+    options: [
+      "Context",
+      "Ignoring facts",
+      "Prejudice",
+      "Assumption"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which is a communication barrier that can lead to conflict?",
+    options: [
+      "Politeness",
+      "Rudeness",
+      "Active listening",
+      "Clarity"
+    ],
+    answer: 1
+  },
+  {
+    question: "The stage where violence has stopped is the:",
+    options: [
+      "Post-conflict stage",
+      "Pre-conflict stage",
+      "Confrontation stage",
+      "Crisis stage"
     ],
     answer: 0
   },
   {
     question: "The Frustration-Aggression theory is similar to:",
     options: [
-      "Human Need theory",
-      "Structural theory",
-      "Realist theory"
+      "The Human Need Theory",
+      "The Realist Theory",
+      "The Structural Theory",
+      "The Verbal Aggression Theory"
     ],
     answer: 0
   },
   {
-    question: "Which of the following best describes peacebuilding?",
+    question: "According to the Traditional Structural Theory, society is made up of:",
     options: [
-      "Only post-conflict efforts",
-      "Efforts related to pre-conflict and post-conflict stages",
-      "Military enforcement only"
+      "Bourgeoisie and Proletariat",
+      "Good and bad people",
+      "Farmers and industrialists",
+      "Leaders and followers"
+    ],
+    answer: 0
+  },
+  {
+    question: "The idea that \"conflict is due to a flaw in human nature\" aligns with:",
+    options: [
+      "The Realist Theory",
+      "The Human Need Theory",
+      "The Frustration-Aggression Theory",
+      "The Structural Theory"
+    ],
+    answer: 0
+  },
+  {
+    question: "A key to Conflict Resolution is:",
+    options: [
+      "Ignoring the root cause",
+      "Addressing the causes of conflict",
+      "Allying fear (incorrect phrasing, likely \"allying\" is a error for \"denying\" or \"ignoring\")",
+      "Promoting suspicion"
     ],
     answer: 1
   },
   {
-    question: "Which of the following is a key condition for peacebuilding?",
+    question: "The central idea behind Conflict Management is to:",
     options: [
-      "Tolerance",
-      "Hostility",
-      "Partiality"
+      "Regulate conflict",
+      "Always resolve it completely",
+      "Ignore it",
+      "Let it escalate"
     ],
     answer: 0
   },
   {
-    question: "What is the full meaning of ADR?",
+    question: "A correct step in conflict analysis could be:",
     options: [
-      "Alternative Dispute Resolution",
-      "Advanced Dispute Reaction",
-      "Authorized Dispute Regulation"
+      "Case study → Fact finding → Analysis Meeting",
+      "Analysis Meeting → Fact finding → Case study",
+      "Ignoring context",
+      "Jumping to conclusions"
     ],
     answer: 0
   },
   {
-    question: "The process of resolving disputes by peaceful means includes:",
+    question: "A true statement about Boko Haram is:",
     options: [
-      "Bribery",
-      "Mediation",
-      "Corruption"
-    ],
-    answer: 1
-  },
-  {
-    question: "The Nigerian civil war was mainly caused by:",
-    options: [
-      "Personal differences between leaders",
-      "Economic growth",
-      "Political stability"
+      "Their guerrilla tactics have made them elusive",
+      "They are better armed than the Nigerian army",
+      "They are no longer a threat",
+      "They control the entire northeast"
     ],
     answer: 0
   },
   {
-    question: "The term \"early warning response\" refers to:",
+    question: "The relationship between development and violence is that:",
     options: [
-      "Ignoring signs of conflict",
-      "Actions taken to address emerging conflict",
-      "Military enforcement"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which of the following are stages of conflict?",
-    options: [
-      "Pre-conflict, confrontation, crisis, violence, outcome",
-      "Negotiation, mediation, arbitration, enforcement, peacekeeping",
-      "Peace education, peace enforcement, peacebuilding"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which is NOT a characteristic of peacebuilders?",
-    options: [
-      "Empathy",
-      "Creativity",
-      "Partiality"
+      "They are mutually exclusive",
+      "They are not directly related",
+      "Violence often hinders development",
+      "Development requires violence"
     ],
     answer: 2
-  },
-  {
-    question: "The term \"conflict management\" means:",
-    options: [
-      "Controlling conflict after it occurs",
-      "Eliminating the causes of conflict",
-      "Ignoring conflict"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is an example of conflict over values?",
-    options: [
-      "Resource disputes",
-      "Religious disagreements",
-      "Land ownership conflicts"
-    ],
-    answer: 1
-  },
-  {
-    question: "Theories of conflict explain:",
-    options: [
-      "The causes and nature of conflicts",
-      "Only how to solve conflicts",
-      "Military strategies"
-    ],
-    answer: 0
-  },
-  {
-    question: "The orthodox liberal theorists focus on:",
-    options: [
-      "Social and economic inequalities",
-      "Structural defects and how to eliminate them peacefully",
-      "Violent revolution"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which is NOT an element of peace?",
-    options: [
-      "Justice",
-      "Development",
-      "Violence"
-    ],
-    answer: 2
-  },
-  {
-    question: "What does ICC stand for?",
-    options: [
-      "International Conflict Council",
-      "International Criminal Court",
-      "International Court of Commerce"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which of these is NOT a negotiation strategy?",
-    options: [
-      "Competition",
-      "Compromising",
-      "Confrontation"
-    ],
-    answer: 2
-  },
-  {
-    question: "Which of the following is a cause of conflict in Nigeria?",
-    options: [
-      "Poor development policies",
-      "Effective leadership",
-      "Religious tolerance"
-    ],
-    answer: 0
-  },
-  {
-    question: "The concept of conflict is derived from the Latin word:",
-    options: [
-      "Conflictus",
-      "Confligere",
-      "Conflation"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which is NOT a direct violence action?",
-    options: [
-      "Physical injury",
-      "Deformity",
-      "Repression"
-    ],
-    answer: 2
-  },
-  {
-    question: "What is the role of ECOWAS in West African conflicts?",
-    options: [
-      "Negotiation and military intervention",
-      "Ignoring conflicts",
-      "Providing only humanitarian aid"
-    ],
-    answer: 0
-  },
-  {
-    question: "What is one benefit of ADR?",
-    options: [
-      "It is more expensive than court trials",
-      "It encourages participation of parties involved",
-      "It always requires lawyers"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which of the following does NOT cause electoral violence in Nigeria?",
-    options: [
-      "Desperate politicians",
-      "Poor election management",
-      "Peace education"
-    ],
-    answer: 2
-  },
-  {
-    question: "What does MDC stand for in conflict resolution context?",
-    options: [
-      "Mediation, Dialogue, and Conciliation",
-      "Military Dispute Council",
-      "Management of Dispute Cases"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following best describes positive peace?",
-    options: [
-      "Absence of direct violence only",
-      "Social justice, fair resource distribution, and law enforcement",
-      "Lack of communication"
-    ],
-    answer: 1
-  },
-  {
-    question: "The violent stage in conflict is also known as:",
-    options: [
-      "Crisis stage",
-      "Pre-conflict stage",
-      "Post-conflict stage"
-    ],
-    answer: 0
-  },
-  {
-    question: "The CMM theory stands for:",
-    options: [
-      "Coordinated Management of Meaning",
-      "Conflict Management Model",
-      "Collaborative Mediation Method"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of these is NOT a function of peace education?",
-    options: [
-      "Early response measure",
-      "Promoting violence",
-      "Raising awareness"
-    ],
-    answer: 1
-  },
-  {
-    question: "Conflict is inevitable because:",
-    options: [
-      "People always agree",
-      "Differences and incompatible goals exist in societies",
-      "Society has no diversity"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which is NOT an effect of unresolved conflict?",
-    options: [
-      "Social instability",
-      "Economic development",
-      "Increased distrust"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which is a major source of conflict in Nigeria?",
-    options: [
-      "Substandard performance of leaders",
-      "Religious unity",
-      "Effective resource management"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is NOT a peaceful dispute settlement method?",
-    options: [
-      "Arbitration",
-      "Mediation",
-      "Violence"
-    ],
-    answer: 2
-  },
-  {
-    question: "The term “security response” refers to:",
-    options: [
-      "The use of illegal firearms by security agencies",
-      "Peace negotiations",
-      "Community dialogue"
-    ],
-    answer: 0
-  },
-  {
-    question: "Theories of conflict provide:",
-    options: [
-      "Ways to cause conflict",
-      "Frameworks to understand conflict causes and effects",
-      "Legal laws"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which of the following best describes the realist theory of conflict?",
-    options: [
-      "Conflict arises from human desire for power",
-      "Conflict is caused by resource scarcity only",
-      "Conflict is caused by environmental factors"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of these is a stage of conflict?",
-    options: [
-      "Violence",
-      "Peace enforcement",
-      "Arbitration"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is NOT a cause of conflict in society?",
-    options: [
-      "Economic inequality",
-      "Cultural differences",
-      "Religious tolerance"
-    ],
-    answer: 2
-  },
-  {
-    question: "What is the key feature of mediation?",
-    options: [
-      "Neutral third party facilitates discussion",
-      "One party imposes decision",
-      "Parties avoid communication"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is NOT a characteristic of a peacebuilder?",
-    options: [
-      "Partiality",
-      "Empathy",
-      "Creativity"
-    ],
-    answer: 0
-  },
-  {
-    question: "The term “mass murder of unarmed civilians” is an example of:",
-    options: [
-      "Genocide",
-      "Peacebuilding",
-      "Negotiation"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is NOT a stage in the conflict escalation process?",
-    options: [
-      "Pre-conflict",
-      "Negotiation",
-      "Crisis"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which of these best explains “conflict regulation”?",
-    options: [
-      "Managing conflict to prevent escalation",
-      "Causing conflict",
-      "Ignoring conflict"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following statements is true about peacekeeping?",
-    options: [
-      "It involves the use of military forces to maintain peace",
-      "It always leads to violent outcomes",
-      "It is unrelated to conflict resolution"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is NOT a characteristic of positive peace?",
-    options: [
-      "Social justice",
-      "Absence of structural violence",
-      "Presence of direct violence"
-    ],
-    answer: 2
-  },
-  {
-    question: "Which of the following is NOT part of the Nigerian security challenges?",
-    options: [
-      "Bunkering",
-      "Kidnapping",
-      "Car theft"
-    ],
-    answer: 2
-  },
-  {
-    question: "Which of the following is NOT a cause of conflict according to the document?",
-    options: [
-      "Poor leadership",
-      "Competition over resources",
-      "Spirituality"
-    ],
-    answer: 2
-  },
-  {
-    question: "The process of peacebuilding is linked to:",
-    options: [
-      "Only post-conflict phase",
-      "Both pre-conflict and post-conflict phases",
-      "Only conflict management"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which of the following is NOT an advantage of ADR?",
-    options: [
-      "Cheaper",
-      "Faster",
-      "More adversarial"
-    ],
-    answer: 2
-  },
-  {
-    question: "Which theory says conflict is due to structural inequalities in society?",
-    options: [
-      "Marxian theory",
-      "Realist theory",
-      "Human Need theory"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is NOT a peaceful method of dispute settlement?",
-    options: [
-      "Arbitration",
-      "Mediation",
-      "Bribery"
-    ],
-    answer: 2
-  },
-  {
-    question: "What does the acronym ADR stand for?",
-    options: [
-      "Alternative Dispute Resolution",
-      "Advanced Dispute Regulation",
-      "Authorized Defense Resource"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is NOT a cause of insurgency in Nigeria?",
-    options: [
-      "Social injustice",
-      "Poor resource management",
-      "Strong political will"
-    ],
-    answer: 2
-  },
-  {
-    question: "What role does ECOWAS play in conflict resolution?",
-    options: [
-      "Negotiation and military intervention",
-      "Ignoring conflicts",
-      "Imposing unilateral decisions"
-    ],
-    answer: 0
-  },
-  {
-    question: "The concept of “early warning signs” relates to:",
-    options: [
-      "Indicators of potential conflict",
-      "Military enforcement",
-      "Economic prosperity"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of these is NOT a peaceful dispute resolution mechanism?",
-    options: [
-      "Conciliation",
-      "Corruption",
-      "Mediation"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which of the following best defines “conflict resolution”?",
-    options: [
-      "Eliminating causes of conflict",
-      "Ignoring conflict",
-      "Enforcing military power"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is NOT an element of peace?",
-    options: [
-      "Justice",
-      "Violence",
-      "Development"
-    ],
-    answer: 1
-  },
-  {
-    question: "What is the meaning of “IDPs”?",
-    options: [
-      "Internally Displaced Persons",
-      "International Displaced Persons",
-      "International Development Program"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is NOT a type of peace?",
-    options: [
-      "Unstable peace",
-      "Durable peace",
-      "Permanent war"
-    ],
-    answer: 2
-  },
-  {
-    question: "Which of these is a cause of electoral violence?",
-    options: [
-      "Poor election management",
-      "Peace education",
-      "Social justice"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following best describes “conflict management”?",
-    options: [
-      "Controlling conflict after it arises",
-      "Eliminating conflict causes",
-      "Provoking conflict"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following best explains “negative peace”?",
-    options: [
-      "Absence of direct violence",
-      "Presence of justice",
-      "Fair resource distribution"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following best describes “positive peace”?",
-    options: [
-      "Absence of violence and presence of justice",
-      "Absence of violence only",
-      "Absence of dialogue"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of these is NOT a component of conflict resolution?",
-    options: [
-      "Peace enforcement",
-      "Peacekeeping",
-      "Peace destruction"
-    ],
-    answer: 2
-  },
-  {
-    question: "Which of these is NOT a negotiation strategy?",
-    options: [
-      "Collaboration",
-      "Competition",
-      "Avoidance"
-    ],
-    answer: 2
-  },
-  {
-    question: "Which of the following is NOT associated with conflict resolution?",
-    options: [
-      "Negotiation",
-      "Mediation",
-      "Aberration"
-    ],
-    answer: 2
-  },
-  {
-    question: "Which of the following describes “conflict over values”?",
-    options: [
-      "Difficult to resolve conflicts related to beliefs and principles",
-      "Easily resolved economic conflicts",
-      "Conflicts over land ownership"
-    ],
-    answer: 0
-  },
-  {
-    question: "What is the meaning of “MDC” in conflict studies?",
-    options: [
-      "Mediation, Dialogue, Conciliation",
-      "Military Defense Council",
-      "Management Development Committee"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is NOT a stage in the conflict process?",
-    options: [
-      "Outcome",
-      "Pre-conflict",
-      "Repression"
-    ],
-    answer: 2
-  },
-  {
-    question: "The term “pacifism” refers to:",
-    options: [
-      "Promotion of peace and avoidance of violence",
-      "Use of force in conflict resolution",
-      "Conflict escalation"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is NOT a method used by student unions in conflict resolution?",
-    options: [
-      "Providing humanitarian assistance",
-      "Defending human rights",
-      "Arming conflicting parties"
-    ],
-    answer: 2
-  },
-  {
-    question: "What is the full form of ECOWAS?",
-    options: [
-      "Economic Community of West African States",
-      "Economic Council of Western African States",
-      "Economic Committee of West African Societies"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is NOT a cause of conflict in Nigerian context?",
-    options: [
-      "Competition over resources",
-      "Poor development policies",
-      "Effective leadership"
-    ],
-    answer: 2
-  },
-  {
-    question: "Which of the following is NOT a direct violence indicator?",
-    options: [
-      "Physical injury",
-      "Repression",
-      "Lynching"
-    ],
-    answer: 1
-  },
-  {
-    question: "What role does the Security Council of the United Nations play?",
-    options: [
-      "Investigates security threats and may order military action",
-      "Makes laws for member countries",
-      "Organizes elections"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following best describes “conflict over resources”?",
-    options: [
-      "Disputes due to competition for scarce resources",
-      "Religious conflict",
-      "Political alliances"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of the following is NOT an example of Alternative Dispute Resolution?",
-    options: [
-      "Arbitration",
-      "Mediation",
-      "Bribery"
-    ],
-    answer: 2
-  },
-  {
-    question: "Which of the following is a major security threat in present-day Nigeria?",
-    options: [
-      "Bunkering",
-      "Car theft",
-      "Traffic violations"
-    ],
-    answer: 0
-  },
-  {
-    question: "The process of conflict management includes:",
-    options: [
-      "Controlling conflict to prevent escalation",
-      "Ignoring conflict",
-      "Encouraging violence"
-    ],
-    answer: 0
-  },
-  {
-    question: "Which of these is NOT a function of peace education?",
-    options: [
-      "Prevention of conflict",
-      "Promotion of hatred",
-      "Raising awareness"
-    ],
-    answer: 1
-  },
-  {
-    question: "Which of the following is NOT a cause of insurgency?",
-    options: [
-      "Social injustice",
-      "Poor governance",
-      "Effective political management"
-    ],
-    answer: 2
-  },
-  {
-    question: "Which of the following is NOT a characteristic of peacebuilders?",
-    options: [
-      "Impartiality",
-      "Partiality",
-      "Creativity"
-    ],
-    answer: 1
-  },
-  {
-    question: "The enforcement of law and fair distribution of resources are efforts aimed at achieving:",
-    options: [
-      "Positive peace",
-      "Negative peace",
-      "Violent peace"
-    ],
-    answer: 0
   }
 ];
 
