@@ -1,16 +1,516 @@
 
-
 const questions = [
   {
-    question: "According to the course material, peace is best defined as:",
+    question: "What is the most comprehensive definition of Alternative Dispute Resolution (ADR)?",
     options: [
-      "The absence of war",
-      "The absence of fear and anxiety",
-      "The existence of justice and equality",
-      "A state of tranquility and silence"
+      "A set of non-adversarial techniques for resolving disputes outside of court.",
+      "A synonym for international arbitration under the UN Charter.",
+      "A process that only includes mediation and conciliation, as defined by the Nigerian Multi-Door Courthouse Act.",
+      "Any conflict management mechanism that supplants the traditional judicial system, including both adjudicative and non-adjudicative forms."
+    ],
+    answer: 3
+  },
+  {
+    question: "A key philosophical underpinning of ADR, which distinguishes it from litigation, is:",
+    options: [
+      "Its reliance on codified procedural laws from the Evidence Act.",
+      "The principle of pacta sunt servanda (agreements must be kept).",
+      "Party autonomy and the control of the process and outcome by the disputants.",
+      "Its requirement for a legally binding and enforceable award."
     ],
     answer: 2
   },
+  {
+    question: "In the context of international law, the World Court's opinion in the German External Case established a precedent that:",
+    options: [
+      "An agreement to negotiate implies a duty to concede on substantive terms.",
+      "States are obligated to submit all territorial disputes to the ICJ.",
+      "An agreement to negotiate does not constitute an obligation to reach an agreement.",
+      "Negotiation is the only permissible first step in the pacific settlement of disputes."
+    ],
+    answer: 2
+  },
+  {
+    question: "Pruitt's definition of negotiation emphasizes it as a process of:",
+    options: [
+      "Coercive bargaining where the stronger party imposes its will.",
+      "Decision-making where parties talk to resolve opposing interests.",
+      "Ritualistic dialogue aimed solely at building rapport, not settling disputes.",
+      "Administrative procedure mandated before litigation can commence."
+    ],
+    answer: 1
+  },
+  {
+    question: "Critics of negotiation, like Malanczuk (1997), argue it is not always ideal for settling international disputes because:",
+    options: [
+      "It is invariably more expensive than judicial settlement.",
+      "It is a process only suited for non-state actors and civil society.",
+      "The facts of the dispute are often difficult to objectively ascertain by the parties themselves.",
+      "It violates the principle of sovereign equality of states."
+    ],
+    answer: 2
+  },
+  {
+    question: "The strategy of \"competitive bargaining\" in negotiation is most analogous to:",
+    options: [
+      "A purely distributive, win-lose approach.",
+      "An integrative, problem-solving approach.",
+      "A principled negotiation model focusing on interests.",
+      "A facilitative dialogue with a neutral third party."
+    ],
+    answer: 0
+  },
+  {
+    question: "The concessionary approach taken by the Gowon administration in the context of the Cameroon-Nigeria border dispute was primarily aimed at:",
+    options: [
+      "Ceding sovereignty over the Bakassi Peninsula unconditionally.",
+      "Appeasing international pressure from the Organization of African Unity (OAU).",
+      "Promoting mutual confidence to facilitate broader agreements.",
+      "Implementing a decision already rendered by the World Court."
+    ],
+    answer: 2
+  },
+  {
+    question: "Mitchel's (1981) conception of conflict as a situation of perceived incompatible goals is most fundamentally a:",
+    options: [
+      "Structural theory of conflict.",
+      "Psychological or cognitive theory of conflict.",
+      "Marxist theory of class conflict.",
+      "Communication theory of misunderstanding."
+    ],
+    answer: 1
+  },
+  {
+    question: "Nnoli's (1998) assertion that conflict is the \"basic unit for understanding social existence\" aligns most closely with which sociological perspective?",
+    options: [
+      "Functionalism, which emphasizes social order and stability.",
+      "Symbolic interactionism, which focuses on micro-level interactions.",
+      "Conflict theory, which views social life as a struggle for power and resources.",
+      "Feminism, which highlights patriarchal structures."
+    ],
+    answer: 2
+  },
+  {
+    question: "The \"Ore-conflict\" stage, characterized by latent tensions and institutional channels for grievance, is most destabilized by:",
+    options: [
+      "The successful intervention of a third-party mediator.",
+      "The collapse of legitimate institutions for dialogue and redress.",
+      "The signing of a comprehensive peace agreement.",
+      "The complete exhaustion of resources by the warring parties."
+    ],
+    answer: 1
+  },
+  {
+    question: "The \"Conflict and Crisis\" stage is diagnostically marked by:",
+    options: [
+      "The development of early warning indicators by NGOs.",
+      "The society becoming engulfed in overt and often violent confrontation.",
+      "The initiation of track II diplomacy by academics.",
+      "The deployment of a UN peacekeeping mission."
+    ],
+    answer: 1
+  },
+  {
+    question: "Fisher's (2000) conceptualization of conflict analysis is best described as:",
+    options: [
+      "A purely academic exercise with no practical application for interveners.",
+      "A structured process to understand the dynamics, actors, and root causes of a conflict.",
+      "A method synonymous with data analysis using statistical software.",
+      "An activity only relevant after a conflict has been resolved."
+    ],
+    answer: 1
+  },
+  {
+    question: "A key methodological weakness of \"Fact Finding\" as a conflict analysis tool, compared to a \"Case Study,\" is that it is:",
+    options: [
+      "Always more expensive and time-consuming.",
+      "Legally binding on the parties involved.",
+      "Less thorough and detailed in its exploration of root causes.",
+      "Conducted exclusively by military intelligence agencies."
+    ],
+    answer: 2
+  },
+  {
+    question: "The \"Verbal Aggressiveness Theory\" posits that conflict can originate from:",
+    options: [
+      "Macro-economic policy failures.",
+      "A lack of verbal skills and the use of attacks on self-concept.",
+      "The inherent contradictions within capitalist systems.",
+      "The misattribution of another's behavior to their character."
+    ],
+    answer: 1
+  },
+  {
+    question: "\"Attribution Theory\" is concerned with how parties in conflict:",
+    options: [
+      "Distribute tangible resources like land and money.",
+      "Seek causes for actions by attributing them to dispositional factors.",
+      "Use verbal communication to escalate tension.",
+      "Develop shared norms through coordinated management of meaning."
+    ],
+    answer: 1
+  },
+  {
+    question: "A core tenet of the Marxist (Radical) Structural Theory of conflict is that:",
+    options: [
+      "Conflict is an aberration in a well-functioning liberal democracy.",
+      "Contradictions and exploitation within the capitalist system are a primary source of conflict.",
+      "Conflict is best resolved through policy reforms and strengthening institutions.",
+      "The meaning of conflict is constructed through social interaction."
+    ],
+    answer: 1
+  },
+  {
+    question: "In contrast, Orthodox Liberal Structural Theory argues that conflict stems from:",
+    options: [
+      "The inevitable class struggle predicted by historical materialism.",
+      "Structural defects like inequality and poor governance, which can be remedied through reform.",
+      "Genetic predispositions towards aggression in humans.",
+      "Irreconcilable differences in religious doctrines."
+    ],
+    answer: 1
+  },
+  {
+    question: "The conflict management technique of \"Reducing Differentiation\" is effective because it:",
+    options: [
+      "Increases the resource pool available for distribution.",
+      "Imposes a solution through the force of law.",
+      "Emphasizes superordinate goals that transcend group identities.",
+      "Clarifies the rules of engagement for negotiation."
+    ],
+    answer: 2
+  },
+  {
+    question: "Glinow's definition of negotiation hinges on the critical element of:",
+    options: [
+      "Redefining the terms of the parties' interdependence.",
+      "The absolute neutrality of the presiding official.",
+      "The immediate enforcement of the agreed terms.",
+      "The involvement of a high-level political leader."
+    ],
+    answer: 0
+  },
+  {
+    question: "An often-overlooked external factor that can significantly influence the dynamics of negotiation is:",
+    options: [
+      "The gender of the lead negotiators.",
+      "The audience characteristics and the need for parties to save face.",
+      "The astrological signs of the conflicting parties.",
+      "The average annual rainfall in the negotiation venue."
+    ],
+    answer: 1
+  },
+  {
+    question: "The conflict handling style of \"Problem Solving\" seeks to:",
+    options: [
+      "Create a win-lose situation through the application of force.",
+      "Postpone dealing with the conflict indefinitely.",
+      "Find a mutually beneficial, integrative solution.",
+      "Smooth over differences by yielding to the other party."
+    ],
+    answer: 2
+  },
+  {
+    question: "\"Yielding\" as a conflict handling style is most strategically used when:",
+    options: [
+      "The issue is of critical strategic importance to your group.",
+      "The goal is to maintain harmony and the issue is less important to you than the relationship.",
+      "A quick, decisive action is needed for survival.",
+      "Both parties are of equal power and are strongly committed to mutually exclusive goals."
+    ],
+    answer: 1
+  },
+  {
+    question: "The historical development of Peace and Conflict Studies as an academic discipline is most accurately traced to:",
+    options: [
+      "Ancient Greek philosophers like Plato and Aristotle.",
+      "The peace churches (e.g., Quakers) in the 17th century.",
+      "The aftermath of the World Wars, particularly post-1945.",
+      "The foreign policy doctrines of the Cold War superpowers."
+    ],
+    answer: 2
+  },
+  {
+    question: "A sophisticated understanding of \"positive peace,\" as opposed to merely the \"absence of war,\" includes:",
+    options: [
+      "The presence of justice, equity, and harmonious relationships.",
+      "A state enforced by a dominant military power.",
+      "The total elimination of all forms of social disagreement.",
+      "The exclusive use of ADR methods in society."
+    ],
+    answer: 0
+  },
+  {
+    question: "\"Ideological conflict,\" such as that between capitalists and socialists, is primarily a struggle over:",
+    options: [
+      "Control of a specific mineral-rich territory.",
+      "Competing systems of beliefs, values, and desired socio-economic organization.",
+      "Historical grievances related to ethnic domination.",
+      "Interpretation of religious texts and doctrines."
+    ],
+    answer: 1
+  },
+  {
+    question: "\"Scarce resources\" are a potent cause of conflict, but the perception of scarcity is often amplified by:",
+    options: [
+      "Abundant rainfall and fertile land.",
+      "Equitable distribution systems and good governance.",
+      "Pre-existing social cleavages and poor management.",
+      "High levels of education and technological advancement."
+    ],
+    answer: 2
+  },
+  {
+    question: "The statement \"unfair treatment... is a common cause of conflict\" directly relates to the concept of:",
+    options: [
+      "Structural violence.",
+      "Verbal aggression.",
+      "Distributive bargaining.",
+      "Track III diplomacy."
+    ],
+    answer: 0
+  },
+  {
+    question: "Fisher's conflict analysis method is primarily qualitative, but a significant challenge to its validity is:",
+    options: [
+      "Its over-reliance on quantitative data analysis.",
+      "The potential for analyst bias and the subjective interpretation of data.",
+      "Its inability to be used by non-governmental organizations.",
+      "Its focus on historical timelines rather than current actors."
+    ],
+    answer: 1
+  },
+  {
+    question: "In a case study, analyzing both \"primary and secondary actors\" is crucial because:",
+    options: [
+      "Secondary actors are always more important than primary ones.",
+      "It allows for the mapping of all stakeholders with an interest in the conflict's outcome.",
+      "Primary actors are typically international NGOs.",
+      "The distinction is irrelevant to understanding root causes."
+    ],
+    answer: 1
+  },
+  {
+    question: "The assertion that \"conflict is not a static phenomenon but a dynamic and dialectical one\" means that:",
+    options: [
+      "Conflicts follow a predetermined and unchangeable linear path.",
+      "Conflicts evolve and change over time through the interaction of opposing forces.",
+      "All conflicts are essentially the same and have identical solutions.",
+      "The study of conflict is a fixed science with immutable laws."
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following is NOT a core advantage of ADR over litigation?",
+    options: [
+      "Party control over the process and outcome.",
+      "The guarantee of a legally enforceable binding decision in all cases.",
+      "Potential for preserving ongoing relationships.",
+      "Cost and time efficiency."
+    ],
+    answer: 1
+  },
+  {
+    question: "The primary goal of conflict \"transformation,\" as opposed to mere \"resolution,\" is to:",
+    options: [
+      "Achieve a quick ceasefire and return to the status quo ante bellum.",
+      "Address the root causes and change the relationships, structures, and systems that gave rise to the conflict.",
+      "Assign blame and punish the aggressor through judicial means.",
+      "Suppress the visible manifestations of conflict through military force."
+    ],
+    answer: 1
+  },
+  {
+    question: "The \"Multi-Track\" approach to peacebuilding is significant because it:",
+    options: [
+      "Argues that only governmental actors (Track I) can achieve sustainable peace.",
+      "Recognizes that peace requires the involvement of multiple levels of society, from grassroots to government.",
+      "Focuses exclusively on the role of the business community in funding peace efforts.",
+      "Is a theoretical model with no practical application in real conflicts."
+    ],
+    answer: 1
+  },
+  {
+    question: "In arbitration, the \"award\" is fundamentally different from a mediator's proposal because it is:",
+    options: [
+      "Non-binding and advisory in nature.",
+      "Legally binding and enforceable in court.",
+      "Based solely on the principles of religious law.",
+      "Developed through a collaborative problem-solving process."
+    ],
+    answer: 1
+  },
+  {
+    question: "A major systemic cause of political conflict in Nigeria is:",
+    options: [
+      "The abundance of natural resources like oil and gas.",
+      "The perceived winner-takes-all nature of the political system and electoral crises.",
+      "The homogeneous ethnic composition of the country.",
+      "The lack of any history of military intervention."
+    ],
+    answer: 1
+  },
+  {
+    question: "\"Reconciliation\" differs from \"settlement\" in that it requires:",
+    options: [
+      "Only a signed agreement to cease hostilities.",
+      "A deeper process involving truth, justice, mercy, and the restoration of relationships.",
+      "The imposition of a solution by an external peacekeeping force.",
+      "The complete defeat and disarmament of one party."
+    ],
+    answer: 1
+  },
+  {
+    question: "An \"early warning sign\" of conflict, such as \"evidence of prolonged distrust,\" is valuable for:",
+    options: [
+      "Justifying pre-emptive military strikes against a potential aggressor.",
+      "Allowing for proactive intervention to prevent escalation.",
+      "Proving the guilt of a particular group in international court.",
+      "Determining the exact date when conflict will break out."
+    ],
+    answer: 1
+  },
+  {
+    question: "The fundamental premise of peace education is that:",
+    options: [
+      "Conflict is always negative and must be eliminated from society.",
+      "Values of tolerance, justice, and non-violence can be taught and learned.",
+      "It is only effective if targeted at political office holders.",
+      "It should focus solely on the history of warfare."
+    ],
+    answer: 1
+  },
+  {
+    question: "The \"Coordinated Management of Meaning (CMM) Theory\" suggests that conflicts can arise from:",
+    options: [
+      "Differences in how parties interpret communication based on context and background.",
+      "The inherent greed and aggression of human nature.",
+      "The unequal distribution of economic resources alone.",
+      "A universal failure to adhere to grammatical rules."
+    ],
+    answer: 0
+  },
+  {
+    question: "According to \"Social Influence Theory,\" a coercive act may be justified and not condemned if it is:",
+    options: [
+      "Committed by a state against its own citizens.",
+      "Perceived as legitimate within the social or cultural context.",
+      "Effective in achieving a desired economic outcome.",
+      "Carried out by a non-state actor."
+    ],
+    answer: 1
+  },
+  {
+    question: "A key critique of the \"Integrative Theory\" is that it may be difficult to apply in situations where:",
+    options: [
+      "There is a significant power imbalance between the parties.",
+      "Both parties are highly educated and rational.",
+      "The conflict is over easily divisible resources like money.",
+      "A neutral third party is present to facilitate dialogue."
+    ],
+    answer: 0
+  },
+  {
+    question: "The stage in which parties to a conflict actively seek allies and mobilize resources is the:",
+    options: [
+      "Pre-conflict stage.",
+      "Confrontation stage.",
+      "Outcome stage.",
+      "Post-conflict stage."
+    ],
+    answer: 1
+  },
+  {
+    question: "The \"Outcome Stage\" of a conflict can be characterized by a negotiated settlement, but it can also be characterized by:",
+    options: [
+      "A return to the latent tension of the pre-conflict stage.",
+      "An outright military victory and the imposition of terms by one side.",
+      "The immediate and successful implementation of reconciliation.",
+      "The total disappearance of the issues that caused the conflict."
+    ],
+    answer: 1
+  },
+  {
+    question: "\"Peace as justice development\" primarily focuses on:",
+    options: [
+      "Individual spiritual contentment and inner calm.",
+      "The absence of direct, physical violence.",
+      "The absence of structural violence and the presence of equity.",
+      "The wholeness and completeness of a nation's territory."
+    ],
+    answer: 2
+  },
+  {
+    question: "The concept of \"inner peace\" is most concerned with:",
+    options: [
+      "International legal frameworks for human rights.",
+      "An individual's subjective sense of spiritual or mental calm.",
+      "The balance of power between nation-states.",
+      "The economic development index of a country."
+    ],
+    answer: 1
+  },
+  {
+    question: "A limitation of \"Adjudication\" (litigation) as a conflict resolution mechanism is that it often:",
+    options: [
+      "Is too quick and does not allow for thorough discovery.",
+      "Fosters a win-lose dynamic that can damage relationships and increase suspicion.",
+      "Is too informal and lacks clear rules of procedure.",
+      "Excludes the participation of legal representatives."
+    ],
+    answer: 1
+  },
+  {
+    question: "The \"Multi-Door Courthouse\" concept innovates the justice system by:",
+    options: [
+      "Increasing the number of physical courtrooms available for trials.",
+      "Mandating that all cases must first go through mediation.",
+      "Providing a framework of dispute resolution options (ADR & litigation) tailored to the case.",
+      "Focusing exclusively on arbitration for commercial disputes."
+    ],
+    answer: 2
+  },
+  {
+    question: "In a deeply divided society, \"reducing differentiation\" as a conflict management strategy might involve:",
+    options: [
+      "Enforcing assimilation into a single cultural identity.",
+      "Creating integrated institutions and promoting shared national identity while respecting diversity.",
+      "Physically separating the conflicting groups.",
+      "Ignoring the underlying causes of group differentiation."
+    ],
+    answer: 1
+  },
+  {
+    question: "An analyst claiming conflict is \"inevitable\" is most likely drawing from a theoretical perspective that emphasizes:",
+    options: [
+      "The perfectibility of human nature and social institutions.",
+      "The inherent presence of incompatible goals and scarcity in social life.",
+      "The ultimate success of UN peacekeeping missions.",
+      "The declining global trends in battle deaths since the Cold War."
+    ],
+    answer: 1
+  },
+  {
+    question: "When a third party in a mediation focuses on improving communication and understanding between disputants, they are attempting to address a conflict cause related to:",
+    options: [
+      "Value differences.",
+      "Communication gaps.",
+      "Scarce resources.",
+      "Injustice."
+    ],
+    answer: 1
+}
+,
+{
+  question: "According to the course material, peace is best defined as:",
+  options: [
+    "The absence of war",
+    "The absence of fear and anxiety",
+    "The existence of justice and equality",
+    "A state of tranquility and silence"
+  ],
+  answer: 2
+},
   {
     question: "A latent conflict is one that is:",
     options: [
